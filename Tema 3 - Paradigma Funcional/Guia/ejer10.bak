@@ -1,0 +1,6 @@
+#|
+   10)Escribaunafunciónlargoquedevuelvael largodeunalistasinutilizar lafuncióndefinidaen
+ Racket.
+ Ej:(largo'(148))→3
+
+|#

@@ -1,0 +1,30 @@
+Tecnologías de la Programación
+
+correo de la cátedra: tecnologiasdelaprogramacion@gmail.com 
+(no enviar correos a las direcciones personales salvo que se indique lo contrario).
+Realizar consultas sobre la materia en el foro
+
+
+Aprobación de la asignatura:
+Requisitos regularización:
+Asistencia: 80%
+Promedio en parciales del 40% no siendo menor en ninguno de ellos del 40%.
+Aprobar Trabajo Práctico Integrador
+
+
+Requisitos promoción:
+Asistencia: 80%
+Promedio de aprobación de parciales de 70%,
+ no siendo menor en ninguno de ellos del 60%,
+Aprobar Trabajo Práctico Integrador
+Aprobar Coloquio Final Integrador (CFI) con 70 % como mínimo.
+
+Examen final:
+Modalidad estudiantes regulares (Teórico/Práctico): 
+ Teórico /Práctico. Teoría: Escrita Páctica: Consiste en una instancia programación en máquina consistente en la resolución de un problema determinado para los paradigmas que se le solicite.
+
+Modalidad estudiantes libres (Teórico/Práctico):
+ Teórico/Práctico en 2 etapas: Desarrollar un trabajo práctico integrador sobre paradigmas de programacióndado por los docentes y presentarlo para su aprobación.
+ Defender el trabajo mediante una exposición oral explicando fundamentos teóricos, decisiones de diseño y soluciones implementadas.
+ Responder preguntas sobre alcance, aplicación y limitaciones. Finalmente, realizar una programación en máquina resolviendo un problema práctico y demostrando competencias en los paradigmas solicitados.
+     IMPORTANTE: Los alumnos que rinden en modalidad libre, deben solicitar el enunciado del trabajo práctico integrador con un mes de               anticipación, y entregarlo 15 días antes de la fecha de examen a la que se querrá presentar el alumno.

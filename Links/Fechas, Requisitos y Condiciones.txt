@@ -1,0 +1,27 @@
+Fechas de Parciales, Recuperatorios y CFI:
+1er parcial (23/04/2025) Temas: Paradigma Orientado a Objetos
+2do parcial (11/06/2025) Temas: Paradigma Funcional y Paradigma Lógico
+Recuperatorio (18/06/2025) del primer y segundo parcial.
+CFI: 18/06/2025 para quienes promocionaron ambos parciales sin necesidad de recuperatorio del 18/06
+CFI para quienes  deben recuperar el CFI del 18/06/2025 y quienes aprobaron recuperatorio de parciales el 18/06/2025: 25/06/2025
+
+
+Aprobación de la asignatura:
+Requisitos regularización:
+Asistencia: 80%
+Promedio en parciales del 40% no siendo menor en ninguno de ellos del 40%.
+Aprobar Trabajo Práctico Integrador
+
+
+Requisitos promoción:
+Asistencia: 80%
+Promedio de aprobación de parciales de 70% no siendo menor en ninguno de ellos del 60%,
+Aprobar Trabajo Práctico Integrador
+Aprobar Coloquio Final Integrador (CFI) con 70 % como mínimo.
+
+
+Examen final:
+Modalidad estudiantes regulares (Teórico/Práctico):  Teórico /Práctico. Teoría: Escrita Páctica: Consiste en una instancia programación en máquina consistente en la resolución de un problema determinado para los paradigmas que se le solicite.
+Modalidad estudiantes libres (Teórico/Práctico): Teórico/Práctico en 2 etapas: Desarrollar un trabajo práctico integrador sobre paradigmas de programacióndado por los docentes y presentarlo para su aprobación. Defender el trabajo mediante una exposición oralexplicando fundamentos teóricos, decisiones de diseño y soluciones implementadas. Responder preguntassobre alcance, aplicación y limitaciones. Finalmente, realizar una programación en máquina resolviendo un problema práctico y demostrando competencias en los paradigmas solicitados.
+     IMPORTANTE: Los alumnos que rinden en modalidad libre, deben solicitar el enunciado del trabajo práctico integrador con un mes de               anticipación, y entregarlo 15 días antes de la fecha de examen a la que se querrá presentar el alumno.
+

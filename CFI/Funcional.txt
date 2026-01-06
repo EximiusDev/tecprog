@@ -1,0 +1,1 @@
+Bien resuelto, utiliza una función predefinida APPLY en vez de realizar una propia en el cálculo del costo.

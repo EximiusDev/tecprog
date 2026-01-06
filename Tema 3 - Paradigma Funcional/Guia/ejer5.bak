@@ -1,0 +1,25 @@
+; Ejerc5
+
+;  5) Reescribalassiguientesexpresiones,usandoLetpararemover lassubexpresionescomunesypara
+; mejorar laestructuradelcódigo.Norealiceningunasimplificaciónalgebraica:
+
+; (+(/(*7a)b)(/(*3a)b)(/(*7a)b))      ; 7a/b + 3a/b + 7a/b
+
+(define a 5)   ; Por ejemplo, a = 5
+(define b 2)   ; Por ejemplo, b = 2
+
+(+ (/ (* 7 a) b) 
+   (/ (* 3 a) b) 
+   (/ (* 7 a) b))
+
+(let ((sub_expr1 (/ (* 7 a) b))  ; sub_expr1 = (/ (* 7 5) 2) = 17.5
+      (sub_expr2 (/ (* 3 a) b))) ; sub_expr2 = (/ (* 3 5) 2) = 7.5
+  (+ sub_expr1 sub_expr2 sub_expr1)) ; (+ 17.5 7.5 17.5) → 42.5
+
+;  (cons(car(list a b c))(cdr(list a b c)))
+
+(define c 3)  ; a = 5, b = 2
+
+(cons(car(list a b c))(cdr(list a b c)))
+
+(let ([lista1 (list a b c)] ) (cons(car(lista1)(cdr lista1) )) )

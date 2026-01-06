@@ -1,0 +1,23 @@
+ '(+ 2 3 4)
+;(* (- x 2) y)
+
+#(esto es un vector de símbolos)
+
+
+list'(1 2 3)
+
+
+
+(list 1 4 5)
+
+
+(list 1 (list '“two” '“three”) 4 5)
+
+
+ (quote (1 ("two" "three") 4 5))
+
+
+ (cons 'a '()) ; ⇒ (a)
+ (cons () 'a) ;
+
+ (cons '(a b) '(c d)) ;  (a b) es un elemento y se mete en la lista(c d)

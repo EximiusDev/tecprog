@@ -1,0 +1,40 @@
+Algunas notas de como pense las clases y para que entiendan el codigo, no hace falta leerlo en orden, hice todo a modo de borrador, creo que tiene sentido y funciona (mas o menos) falta implementar todas las Interfaces de Usuario (las inputs/oputpus por consola) para poder ingresar datos y testear, para eso agregaria funciones intermedias en el sistema que pidan datos y luego llamen a las funciones que ya estan hechas.
+
+Servicio:
+	Tiene una lista de reservas
+	Puede añadir nuevas reservas
+	Puede retornar la cantidad de reservas(nro de reserva para agregar nuevas)
+	Llama un metodo que cancela todas las reservas no confirmadas
+	(Falta) que pueda mostrar en pantalla todas sus caracteristicas (atributos, metodos)
+
+Sistema:
+	Tiene el itenierarioManager para controlar los itinerarios(crear, buscar, etc)
+	Tiene una lista de servicios que se crean a partir de un itinerario (sirve de plantilla)
+	Puede agregar servicios
+	Puede mosrtar los servicios
+		En base a los servicios mostrados si ingresa el nombre puede agregar una reserva
+
+	Puede aregrar venta (la crea y la guarda) # falta armar todo esto, puede que cada venta tenga un numero, y luego se puede llamar otra funcion que concrete la venta pasando este numero, igaul que las reservas,ver mas adelante desp de ver el codigo.
+
+Reserva: 
+	Tiene un estado, concretada o no
+	Al crearla se ocupa el asiento pero auno no se confirma hasta qe no se pague
+	un asiento, que es una referencia al mismo asiento del colectivo asignado al servicio (va por parametro y se cachea no se crea)
+	se puede confirmar la reserva, tiene un atributo bool (esto es para que al momento de llamar a cancelar reservas media hora antes del viaje solo se cancelen las no confirmadas )
+	y cancelar
+
+Ventas:
+	ventas recibe una reserva y un medio de pago
+	Tiene un metodo pagar que se encarga de llamar a un metodo de la clase metododepago para saber si se pudo debitar correctamente (esto hay q implementarlo/simularlo algo asi)
+	Lo importate es que si se pago correctante la reserva pasa a estar confirmada (lo que hace que no se pueda cancelar)
+	si no se realizo el pago, tira error, pero se puede volver a intetar pagar, llamando de nuevo a pagar dentro de la misma venta o crear otra venta con otro medio de pago diferente.
+
+
+Unidad:
+	Tiene un map de asientos incializados todos en false, porque cuando se crea la unidad esta vacia (hay varios mapas en el código se ponen con {} a diferencias de las listas [])
+	puedes obtener el estado del asiento segun su numero
+
+Asiento:
+	se puede cambiar el estado del asiento como asi consultar si estado
+	ademas agrege un mostrar asiento
+	

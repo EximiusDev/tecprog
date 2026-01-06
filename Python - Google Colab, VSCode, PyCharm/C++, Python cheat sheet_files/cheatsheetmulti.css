@@ -1,0 +1,131 @@
+table.cheatsheet-lines th {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+table.cheatsheet-lines th img.logo {
+    margin-top: -0.5rem;
+    height: 2rem;
+    max-height: 2rem;
+    max-width: 3rem;
+}
+
+table.cheatsheet-lines th.idiom-title-and-lead{
+    width: 20%;
+}
+
+table.cheatsheet-lines.with-1-langs th.idiom-title-and-lead {
+    /* For a single language, we allow more space for the title. */
+    width: 35%;
+}
+
+.page-cheatsheet.multi .impl-code {
+    width: auto;
+    padding-top: 0.4em;
+    padding-right: 0.6em;
+}
+
+
+.idiom-title-and-lead .alt-impl {
+    font-style: italic;
+    font-weight: bold;
+    color: #BBB;
+}
+
+.page-print {
+    float: right;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.languages-overflow {
+    text-align:center;
+    margin-left:20%;
+    margin-right:30%;
+    transform: rotate(-1.5deg);
+    font-size: 1.4rem;
+    background-color: #FEE;
+    color: #500;
+    font-weight: bold;
+}
+
+.languages-overflow .shout {
+    font-size: larger;
+}
+
+.implementation .move-up {
+    margin-top: -24px;
+    margin-right: 7px;
+}
+
+.implementation .copy-code-to-clipboard {
+	visibility: hidden;
+}
+
+.implementation a.copy-code-to-clipboard {
+	color: #888;
+	text-decoration: none;
+}
+
+.implementation a.copy-code-to-clipboard:hover {
+	text-decoration: none;
+}
+
+.implementation .picode:hover .copy-code-to-clipboard {
+	visibility: visible;
+}
+
+.implementation .impl-external-links {
+    display: none;
+    margin-bottom: 0;
+}
+
+.implementation .impl-external-links ul {
+    margin: 0;
+    list-style: none;
+}
+
+.implementation .impl-external-links li {
+    float: left;
+    margin-left: 1em;
+}
+
+.implementation .impl-external-links li a {
+    color: #777777;
+}
+
+@media print {
+    .page-cheatsheet.multi .idiom-title-and-lead {
+        width: 20%;
+    }
+    .back-to-cheatsheets {
+        display: none;
+    }
+    .languages-overflow {
+        display: none;
+    }
+    .page-cheatsheet .implementation .impl-external-links {
+        display: none !important;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    table.cheatsheet-lines th {
+        background-color: inherit;
+    }
+    .page-cheatsheet .guidance {
+        color: #aaa;
+    }
+    .page-cheatsheet .piimports pre,
+    .page-cheatsheet .picode pre {
+        margin: 0;
+        padding: 0;
+    }
+    .page-cheatsheet .close {
+        color: #aaa;
+    }
+    table.cheatsheet-lines th img.logo {
+        filter: drop-shadow(1px 1px #DDD);
+    }
+}
